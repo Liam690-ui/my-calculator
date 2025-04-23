@@ -24,7 +24,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-span {
+span,
+button {
   display: inline-block;
 }
 #app-container {
