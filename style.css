@@ -20,17 +20,15 @@ body {
   height: 100vh;
   color: var(--primary-text);
   background: radial-gradient(circle, var(--primary-col), var(--secondary-col));
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 span,
 button {
   display: inline-block;
 }
 #app-container {
-  width: 48rem;
-  height: 64rem;
+  margin: 0 auto;
+  max-width: 48rem;
+  /* height: 64rem; */
   position: relative;
   padding: 4.8em 2.4em;
   background: var(--primary-back);
